@@ -31,6 +31,9 @@ module.exports = {
     "plugin:prettier/recommended",
     "plugin:react-hooks/recommended",
   ],
-  plugins: [],
-  rules: {},
+  plugins: ["prettier"],
+  rules: {
+    "prettier/prettier": ["error", {}, { usePrettierrc: true }],
+    "react/prop-types": "off",
+  },
 };
