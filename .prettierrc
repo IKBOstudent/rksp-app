@@ -1,0 +1,27 @@
+{
+  "overrides": [
+    {
+      "files": ["*.{js,jsx}"],
+      "options": {
+        "tabWidth": 4,
+        "trailingComma": "all",
+        "semi": true,
+        "singleQuote": true,
+        "printWidth": 100,
+        "arrowParens": "avoid"
+      }
+    },
+    {
+      "files": ["*.{json,css,scss}"],
+      "options": {
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": ["*.html"],
+      "options": {
+        "tabWidth": 4
+      }
+    }
+  ]
+}
