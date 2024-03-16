@@ -7,7 +7,6 @@ const Dialog = lazy(() => import('./pages/dialog/Dialog'));
 const NotFound = lazy(() => import('./pages/not-found/NotFound'));
 
 import './index.css';
-
 const dialogs = [
     { id: 1, name: 'John', message: 'Hey there!', time: '10:00 AM' },
     { id: 2, name: 'Alice', message: 'How are you?', time: '10:15 AM' },

@@ -8,8 +8,7 @@ function Dialog() {
     const { id } = useParams();
 
     const dialogs = useContext(DialogContext);
-    console.log(id, dialogs);
-    const { name, time, message } = dialogs.find(dialog => dialog.id === Number(id));
+    const { name } = dialogs.find(dialog => dialog.id === Number(id));
 
     return (
         <div style={{ maxWidth: 800 }}>
